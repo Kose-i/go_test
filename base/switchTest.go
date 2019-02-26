@@ -16,4 +16,11 @@ func main() {
     default:
       fmt.Println("else 0 1 2 3 switchtest_value")
   }
+
+  switch booltest := switchtest_value < 0; booltest {
+    case true:
+      fmt.Println("switch_value < 0")
+    case false:
+      fmt.Println("switch_value >= 0")
+  }
 }
