@@ -12,7 +12,7 @@ func printArray(array [100]int) {
 }
 
 func set_three(array []int) {
-  for i := 0;i < 50;i+=1 {
+  for i,_ := range(array) {
     array[i] = 3
   }
 }

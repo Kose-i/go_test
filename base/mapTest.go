@@ -13,5 +13,6 @@ func main() {
     fmt.Println("numbers[\"one\"]:",hoge)
   } else {
     fmt.Println("numbers['one'] is unexpected")
+    numbers["one"] = 0
   }
 }
