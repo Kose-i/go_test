@@ -1,8 +1,9 @@
-package "if_test"
+package main
 
 import "fmt"
 
-func if_test() {
+
+func main() {
   a := 3
   if a == 3 {
     fmt.Printf("a == 3\n")
