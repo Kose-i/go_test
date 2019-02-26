@@ -38,7 +38,18 @@ func closure_test() {
   var func_closure = func(str string)int{fmt.Println(str);return 3}
   fmt.Println(func_closure("closure_test"))
 }
+
+func defer_test(str string) {
+  fmt.Println(str)
+}
+func defer_func_test() {
+  defer defer_test("func1()")
+  defer defer_test("func2()")
+  defer defer_test("func3()")
+  defer_test("func4()")
+}
 func main() {
   function_12()
   closure_test()
+  defer_func_test()
 }
