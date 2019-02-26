@@ -12,9 +12,24 @@ go run ${SRC}
 
 gofmt -w filename.go
 
-![before]:(./mapTest_before.go)
+- before
+```
+var numbers = map[string] int{
+  "one":1,
+  "two":2,
+  "three":3,
+}
+```
 
-![after]:(./mapTest_after.go)
+- after
+
+```
+var numbers = map[string]int{
+	"one":   1,
+	"two":   2,
+	"three": 3,
+}
+```
 
 # 参考
 
