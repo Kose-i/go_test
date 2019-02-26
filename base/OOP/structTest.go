@@ -7,12 +7,14 @@ type A struct {
 }
 
 func (a A)print() {
+  fmt.Println("(a A)print()")
   fmt.Println("x:", a.x)
   fmt.Println("y:", a.y)
   a.x += a.y
   fmt.Println(a.x)//ポインタ経由ではないので値は変わらない
 }
 func (a *A)print_pointa() {
+  fmt.Println("(a *A)print()")
   fmt.Println("x:", a.x)
   fmt.Println("y:", a.y)
   a.x += a.y
