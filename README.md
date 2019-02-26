@@ -34,3 +34,8 @@ var numbers = map[string]int{
 # 参考
 
 [はじめてのGo言語](https://www.kohgakusha.co.jp/books/detail/978-4-7775-1559-2)
+
+- Web
+[github-golang](https://github.com/golang)
+[go公式](http://golang.org)
+[go公式jp](http://golang.jp)
