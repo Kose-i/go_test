@@ -2,9 +2,9 @@ package main
 import "fmt"
 
 var numbers = map[string] int{
-  "one"   : 1,
-  "two"   : 2,
-  "three" : 3,
+  "one":1,
+  "two":2,
+  "three":3,
 }
 
 func main() {
