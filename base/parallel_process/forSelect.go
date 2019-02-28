@@ -14,14 +14,15 @@ func for_select_test1() {
   go func(){
     time.Sleep(5*time.Second)
     done <-1
-    close(done)
+    //close(done)
   }()
   workCount := 0
-  //loop:
+  loop:
   for {
     select{
       case <-done:
-        break
+        fmt.Println("case <-done")
+        break loop
       default:
     }
 
