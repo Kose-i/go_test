@@ -52,3 +52,14 @@ var numbers = map[string]int{
 [go testcode](https://play.golang.org)
 
 [golang-group](https://groups.google.com/forum/#!forum/golang-nuts)
+
+[Go言語とは？特徴・できること・人気の理由について徹底解説](https://tech-camp.in/note/technology/49655/)
+
+[Go 言語における「オブジェクト」](https://text.baldanders.info/golang/object-oriented-programming/)
+
+
+- Qiita
+
+[Go言語関連書籍のまとめ](https://qiita.com/yoskeoka/items/d07b60f755e8a9b30ccf)
+
+[クラスとオブジェクトの関係性（Go 言語編）](https://qiita.com/spiegel-im-spiegel/items/2da5e5902aa2cb6d9e30)
